@@ -1,3 +1,4 @@
+sync.js
 export default async function handler(req, res) {
   // Configurar CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
