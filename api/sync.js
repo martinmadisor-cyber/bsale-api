@@ -11,7 +11,7 @@ module.exports = async (req, res) => {
   }
 
   // Leer el token secreto desde las variables de entorno de Vercel
-  const BSALE_TOKEN = process.env.BSALE_TOKEN;
+  const BSALE_TOKEN = 92ba5fa826bfc2a2774ed06ac9a96df60c2d14fa;
 
   // Verificar que el token exista
   if (!BSALE_TOKEN) {
